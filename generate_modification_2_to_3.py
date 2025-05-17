@@ -4,7 +4,7 @@ from openai import OpenAI
 from tqdm import tqdm
 
 transaction = 2
-cat = 66
+cat = 196
 
 transaction_path = Path(f"multi-turn/transaction{transaction}/transaction{transaction}_{cat}.jsonl")
 caption_path = Path(f"captions/image_captions_{cat}.jsonl")

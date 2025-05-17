@@ -6,7 +6,7 @@ import torch
 from image_embedding_model import CLIPImageEncoder
 
 transaction = 3
-cat = 10
+cat = 196
 transaction3_path = Path(f"multi-turn/transaction{transaction}/transaction{transaction}_{cat}.jsonl")
 transaction2_path = Path(f"multi-turn/transaction{transaction - 1}/transaction{transaction - 1}_{cat}.jsonl")
 transaction1_path = Path(f"multi-turn/transaction{transaction - 2}/transaction{transaction - 2}_{cat}.jsonl")
